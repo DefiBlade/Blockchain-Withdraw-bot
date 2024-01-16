@@ -1,0 +1,18 @@
+{
+  "name": "trading-bot",
+  "version": "1.0.0",
+  "description": "1) The bot uses a wallet address and see phrase - this needs to be the **FIRST ACCOUNT** (Account0 by default) that was created by default when you installed metamask on your pc / macbook. \r     - if this is **NOT** configured correctly you will get an error that says \"(node:45320) UnhandledPromiseRejectionWarning: Error: insufficient funds for intrinsic transaction cost\"",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/bot.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^5.1.4",
+    "@pancakeswap-libs/sdk": "^1.0.1",
+    "chalk": "^4.1.1",
+    "dotenv": "^10.0.0"
+  }
+}
